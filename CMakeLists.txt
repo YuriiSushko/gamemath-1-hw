@@ -7,4 +7,6 @@ set(CMAKE_CXX_EXTENSIONS off)
 
 set(CMAKE_BUILD_TYPE Release)
 
-add_executable(main src/main.cpp)
+add_subdirectory(src)
+enable_testing()
+add_subdirectory(tests)
