@@ -8,7 +8,7 @@ int main(){
         inf_value /= 2.45;
     }
 
-    float const value = 2.0e-10f;
+    float const value = 0.600000024;
     uint64_t bit_value_inf = float_to_bits(inf_value);
     uint32_t bit_value = float_to_bits(value);
     print_number_info(bit_value);
